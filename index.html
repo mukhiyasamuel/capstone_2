@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My_capstone_2</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+       .container {
+        background-color: lightseagreen;
+        height: 100vh;
+        position: relative;
+       }
+       h1 {
+        padding-top: 60px;
+       }
+       h1, h4 {
+        color: aliceblue;
+        text-align: center;
+        font-family: sans-serif;
+        text-transform: uppercase;
+        font-size: 60px;
+       }
+       .dog {
+        border-radius:50% ;
+        margin-left: 50%;
+       }
+       .information {
+        margin-top: 30px;
+       }
+       .information > p {
+        text-align: center;
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+       }
+       .capstone {
+        margin-top: 30px;
+        margin-left: 50px;
+       }
+       #skills {
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-evenly;
+       }
+       .skill-1 > h3 > p {
+        color: black;
+        display: inline;
+        font-family: 'Times New Roman', Times, serif;
+       }
+       #about {
+        background-color: lightseagreen;
+       }
+       #about > h2 {
+        color: wheat;
+        text-align: center;
+       }
+       #about > p {
+        padding-left: 20px;
+       }
+       .aboutme {
+        text-align: center;
+       }
+       .aboutme > a {
+        font-family: 'Times New Roman', Times, serif;
+        text-decoration: none;
+        color: black;
+        padding: 5px;
+       }
+       @media (max-width:600px) {
+            .container > h1 > h4 {
+                font-size: medium;
+            }
+            #skills {
+                flex-direction: column;
+                padding-left: 20px;
+                height: 100%;
+            }
+            #about {
+                margin-top: 30px;
+            }
+            #about  {
+                display: block;
+                text-align: center;
+            }
+          
+        
+       }
+    </style>
+</head>
+<body>
+    <!--title section-->
+    <section id="title">
+        <div class="container">
+            <h1 >santosh mukhiya</h1>
+            <h4>I'm a student and I am learning web <br>development.</h4>
+        </div>
+    </section>
+    <!--my introduction-->
+    <section id="intro">
+        <div class="information">
+        <img  class="dog" src="./images/blue.jpg" alt="my dog picture" height="80">
+        <p> Hello, I am Santosh Mukhiya. I am from Science <br>background<br> but I do love programming.<br> I am learning web devlopment</p>
+    </div>
+    </section>
+    <!--my skills-->
+    <section id="skills">
+        <div class="skill-1">
+        <a href="https://mukhiyasamuel.github.io/Capstone/"> <img class="capstone" src="./images/capstone.PNG" alt="my first capstone project image" ></a></div>
+        <div class="skill-2">
+        <h3>MY CAPSTONE PROJECT</h3>
+        <p>This is my first project which I built using html. <br>I am learning web development.</p>
+        </div>
+    </section>
+    <!--about me-->
+    <section id="about">
+        <h2>GET IN TOUCH</h2>
+        <p>@samuel mukhiya</p>
+        <div class="aboutme">
+            <a href="https://www.facebook.com/">Facebook</a>
+            <a href="https://www.instagram.com/">Instagram</a>
+            <a href="https://github.com/mukhiyasamuel/Capstone/settings/pages">Github</a>
+        </div>
+    </section>
+</body>
+</html>
